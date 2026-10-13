@@ -1,211 +1,149 @@
 {
-  "updatedAt": "2026-10-12T19:18:45.714927+00:00",
+  "updatedAt": "2026-10-13T01:29:21.461981+00:00",
   "source": "DHMZ",
   "stations": {
-    "RC Bilogora": {
-      "temp": "10.2",
-      "condition": "vedro",
-      "wind": "NW",
-      "humidity": "82"
-    },
     "Bjelovar": {
-      "temp": "8.7",
-      "condition": "magla",
-      "wind": "NW",
-      "humidity": "100"
-    },
-    "Crikvenica": {
-      "temp": "15.1",
-      "condition": "lahor",
-      "wind": "NW",
-      "humidity": "51"
+      "temp": "4.1",
+      "condition": "-",
+      "wind": "C",
+      "humidity": "99"
     },
     "Dubrovnik": {
-      "temp": "18.5",
-      "condition": "umjereno oblačno, vjetrovito",
-      "wind": "NE",
-      "humidity": "31"
-    },
-    "Dubrovnik-aerodrom": {
-      "temp": "17.6",
-      "condition": "pretežno vedro, vjetrovito",
+      "temp": "16.5",
+      "condition": "umjereno jak vjetar",
       "wind": "NE",
       "humidity": "36"
     },
-    "Gospić": {
-      "temp": "7.4",
-      "condition": "umjereno oblačno",
-      "wind": "NW",
-      "humidity": "91"
-    },
-    "RC Gradište (kod Županje)": {
-      "temp": "10.6",
-      "condition": "umjereno oblačno",
-      "wind": "SW",
-      "humidity": "85"
-    },
-    "Karlovac": {
-      "temp": "7.8",
-      "condition": "vedro",
-      "wind": "S",
-      "humidity": "97"
-    },
-    "Knin": {
-      "temp": "13.4",
-      "condition": "pretežno vedro",
-      "wind": "NE",
-      "humidity": "56"
-    },
-    "Križevci": {
-      "temp": "8.2",
-      "condition": "vedro",
-      "wind": "C",
-      "humidity": "97"
-    },
-    "Makarska": {
-      "temp": "18.7",
-      "condition": "pretežno oblačno",
+    "Dubrovnik-aerodrom": {
+      "temp": "16.6",
+      "condition": "potpuno oblačno, jak vjetar",
       "wind": "NE",
       "humidity": "35"
     },
+    "Gospić": {
+      "temp": "2.6",
+      "condition": "lahor",
+      "wind": "N",
+      "humidity": "99"
+    },
+    "RC Gradište (kod Županje)": {
+      "temp": "6.9",
+      "condition": "povjetarac",
+      "wind": "NW",
+      "humidity": "95"
+    },
+    "Knin": {
+      "temp": "12.4",
+      "condition": "slab vjetar",
+      "wind": "N",
+      "humidity": "48"
+    },
+    "Križevci": {
+      "temp": "4.0",
+      "condition": "lahor",
+      "wind": "NW",
+      "humidity": "99"
+    },
     "Opatija": {
-      "temp": "13.1",
+      "temp": "13.5",
       "condition": "-",
       "wind": "-",
-      "humidity": "63"
-    },
-    "RC Osijek-Čepin": {
-      "temp": "11.1",
-      "condition": "potpuno oblačno",
-      "wind": "NW",
-      "humidity": "93"
-    },
-    "Pazin": {
-      "temp": "10.8",
-      "condition": "vedro",
-      "wind": "E",
-      "humidity": "70"
-    },
-    "Pula-aerodrom": {
-      "temp": "14.2",
-      "condition": "vedro",
-      "wind": "NE",
-      "humidity": "58"
-    },
-    "Rijeka": {
-      "temp": "11.8",
-      "condition": "vedro",
-      "wind": "NE",
-      "humidity": "75"
-    },
-    "Rijeka-aerodrom": {
-      "temp": "10.8",
-      "condition": "vedro",
-      "wind": "N",
-      "humidity": "75"
-    },
-    "Senj": {
-      "temp": "13.4",
-      "condition": "vedro, vjetrovito",
-      "wind": "E",
-      "humidity": "66"
-    },
-    "Sisak": {
-      "temp": "9.8",
-      "condition": "vedro",
-      "wind": "N",
-      "humidity": "97"
-    },
-    "Slavonski Brod": {
-      "temp": "11.1",
-      "condition": "pretežno oblačno",
-      "wind": "W",
-      "humidity": "83"
-    },
-    "Split-Marjan": {
-      "temp": "15.8",
-      "condition": "pretežno vedro, vjetrovito",
-      "wind": "NE",
-      "humidity": "40"
-    },
-    "Split-aerodrom": {
-      "temp": "16.7",
-      "condition": "umjereno oblačno, vjetrovito",
-      "wind": "NE",
-      "humidity": "40"
-    },
-    "Šibenik": {
-      "temp": "15.3",
-      "condition": "umjereno oblačno",
-      "wind": "N",
       "humidity": "49"
     },
-    "Varaždin": {
-      "temp": "7.8",
+    "RC Osijek-Čepin": {
+      "temp": "4.8",
+      "condition": "povjetarac",
+      "wind": "NW",
+      "humidity": "99"
+    },
+    "Pula-aerodrom": {
+      "temp": "12.2",
+      "condition": "vedro",
+      "wind": "N",
+      "humidity": "59"
+    },
+    "Rijeka-aerodrom": {
+      "temp": "9.5",
       "condition": "vedro",
       "wind": "W",
-      "humidity": "93"
+      "humidity": "73"
     },
-    "Zadar": {
-      "temp": "14.8",
-      "condition": "umjereno oblačno, vjetrovito",
-      "wind": "E",
-      "humidity": "63"
-    },
-    "Zadar-aerodrom": {
-      "temp": "14.6",
-      "condition": "vedro",
-      "wind": "NE",
-      "humidity": "54"
-    },
-    "Zagreb-Grič": {
-      "temp": "10.5",
-      "condition": "vedro",
-      "wind": "N",
+    "Slavonski Brod": {
+      "temp": "4.6",
+      "condition": "-",
+      "wind": "W",
       "humidity": "92"
     },
-    "Zagreb-Maksimir": {
-      "temp": "8.0",
+    "Split-aerodrom": {
+      "temp": "14.8",
       "condition": "vedro",
+      "wind": "NE",
+      "humidity": "42"
+    },
+    "Šibenik": {
+      "temp": "14.1",
+      "condition": "slab vjetar",
       "wind": "N",
+      "humidity": "45"
+    },
+    "Varaždin": {
+      "temp": "4.3",
+      "condition": "lahor",
+      "wind": "SW",
+      "humidity": "99"
+    },
+    "Zadar-aerodrom": {
+      "temp": "9.9",
+      "condition": "vedro",
+      "wind": "C",
+      "humidity": "63"
+    },
+    "Zagreb-Maksimir": {
+      "temp": "4.1",
+      "condition": "-",
+      "wind": "NW",
       "humidity": "95"
     },
     "Zagreb-aerodrom": {
-      "temp": "7.8",
+      "temp": "6.8",
       "condition": "vedro",
       "wind": "W",
-      "humidity": "99"
+      "humidity": "100"
     },
     "Zagreb": {
-      "temp": "7.8",
+      "temp": "6.8",
       "condition": "vedro",
       "wind": "W",
-      "humidity": "99"
+      "humidity": "100"
+    },
+    "Rijeka": {
+      "temp": "9.5",
+      "condition": "vedro",
+      "wind": "W",
+      "humidity": "73"
+    },
+    "Zadar": {
+      "temp": "9.9",
+      "condition": "vedro",
+      "wind": "C",
+      "humidity": "63"
     },
     "Split": {
-      "temp": "16.7",
-      "condition": "umjereno oblačno, vjetrovito",
-      "wind": "NE",
-      "humidity": "40"
-    },
-    "Pula": {
-      "temp": "14.2",
+      "temp": "14.8",
       "condition": "vedro",
       "wind": "NE",
-      "humidity": "58"
+      "humidity": "42"
+    },
+    "Pula": {
+      "temp": "12.2",
+      "condition": "vedro",
+      "wind": "N",
+      "humidity": "59"
     }
   },
   "alerts": [
     "Žuto upozorenje za vjetar",
     "Jaka bura s olujnim udarima.",
-    "Žuto upozorenje za grmljavinsku oluju",
-    "Na otocima mjestimice mogući izraženiji pljuskovi praćeni grmljavinom.",
-    "Žuto upozorenje za vjetar",
-    "Jaka bura s olujnim udarima.",
-    "Žuto upozorenje za grmljavinsku oluju",
-    "Mjestimice mogući izraženiji pljuskovi praćeni grmljavinom, uglavnom na zapadu.",
-    "Žuto upozorenje za grmljavinsku oluju",
-    "Mjestimice mogući izraženiji pljuskovi praćeni grmljavinom, uglavnom na zapadu.",
     "Žuto upozorenje za vjetar",
     "Jaka bura s olujnim udarima.",
     "Žuto upozorenje za vjetar",
@@ -218,13 +156,21 @@
     "Jaka bura s olujnim udarima.",
     "Yellow wind warning",
     "Strong bura (NE wind) with gale force gusts.",
-    "Yellow thunderstorm warning",
-    "Severe thundershowers possibility in the islands.",
     "Yellow wind warning",
-    "Strong bora (NE wind) with gale force gusts.",
-    "Yellow thunderstorm warning",
-    "Severe thundershowers possibility, mostly on the west coast.",
-    "Yellow thunderstorm warning",
-    "Severe thundershowers possibility, mostly on the west coast."
+    "Strong bura (NE wind) with gale force gusts.",
+    "Yellow wind warning",
+    "Strong bura (NE wind) with gale force gusts.",
+    "Yellow wind warning",
+    "Strong bura (NE wind) with gale force gusts.",
+    "Yellow wind warning",
+    "Strong bura (NE wind) with gale force gusts.",
+    "Yellow wind warning",
+    "Strong bura (NE wind) with gale force gusts.",
+    "Žuto upozorenje za vjetar",
+    "Pojačana, mjestimice jaka bura. Najjači udari vjetra 35-45 čvorova (65-85 km/h)",
+    "Žuto upozorenje za vjetar",
+    "Jaka, mjestimice vrlo jaka bura. Najjači udari vjetra 35-55 čvorova (65-100 km/h)",
+    "Žuto upozorenje za vjetar",
+    "Jaka, ponegdje vrlo jaka bura. Najjači udari vjetra 35-60 čvorova (65-110 km/h)"
   ]
 }
