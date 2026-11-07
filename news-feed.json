@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T00:42:18.772081+00:00",
+  "updatedAt": "2026-11-07T23:16:02.906150+00:00",
   "editorialModel": "patriasoul-news-engine-2",
   "sourceCounts": {
     "vlada": 0,
@@ -8,7 +8,7 @@
     "mzom": 0,
     "mpgi": 0,
     "mints": 0,
-    "dhmz": 45,
+    "dhmz": 55,
     "mpudt": 0,
     "zakonodavstvo": 0,
     "dzs-stanovnistvo": 0,
@@ -19,12 +19,12 @@
     "vlada": {
       "status": "ERROR",
       "items": 0,
-      "error": "encoding specified in XML declaration is incorrect: line 1, column 30"
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     "branitelji": {
       "status": "ERROR",
       "items": 0,
-      "error": "HTTP Error 404: Not Found"
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     "sabor": {
       "status": "ERROR",
@@ -34,65 +34,86 @@
     "mzom": {
       "status": "ERROR",
       "items": 0,
-      "error": "HTTP Error 404: Not Found"
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     "mpgi": {
       "status": "ERROR",
       "items": 0,
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     "mints": {
       "status": "ERROR",
       "items": 0,
-      "error": "HTTP Error 404: Not Found"
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     "dhmz": {
       "status": "OK",
-      "items": 45
+      "items": 55
     },
     "mpudt": {
       "status": "ERROR",
       "items": 0,
-      "error": "undefined entity: line 76, column 15"
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     "zakonodavstvo": {
       "status": "ERROR",
       "items": 0,
-      "error": "HTTP Error 404: Not Found"
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     "dzs-stanovnistvo": {
-      "status": "EMPTY",
-      "items": 0
+      "status": "ERROR",
+      "items": 0,
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     "dzs-bdp": {
-      "status": "EMPTY",
-      "items": 0
+      "status": "ERROR",
+      "items": 0,
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     "dzs-gradevinarstvo": {
-      "status": "EMPTY",
-      "items": 0
+      "status": "ERROR",
+      "items": 0,
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     }
   },
   "healthSummary": {
     "configured": 12,
     "ok": 1,
-    "empty": 3,
-    "error": 8
+    "empty": 0,
+    "error": 11
   },
   "errors": [
-    "vlada: encoding specified in XML declaration is incorrect: line 1, column 30",
-    "branitelji: HTTP Error 404: Not Found",
+    "vlada: <urlopen error [Errno 104] Connection reset by peer>",
+    "branitelji: <urlopen error [Errno 104] Connection reset by peer>",
     "sabor: HTTP Error 404: Not Found",
-    "mzom: HTTP Error 404: Not Found",
-    "mpgi: HTTP Error 500: Internal Server Error",
-    "mints: HTTP Error 404: Not Found",
-    "mpudt: undefined entity: line 76, column 15",
-    "zakonodavstvo: HTTP Error 404: Not Found",
-    "dzs-stanovnistvo: feed nema prepoznate stavke",
-    "dzs-bdp: feed nema prepoznate stavke",
-    "dzs-gradevinarstvo: feed nema prepoznate stavke"
+    "mzom: <urlopen error [Errno 104] Connection reset by peer>",
+    "mpgi: <urlopen error [Errno 104] Connection reset by peer>",
+    "mints: <urlopen error [Errno 104] Connection reset by peer>",
+    "mpudt: <urlopen error [Errno 104] Connection reset by peer>",
+    "zakonodavstvo: <urlopen error [Errno 104] Connection reset by peer>",
+    "dzs-stanovnistvo: <urlopen error [Errno 104] Connection reset by peer>",
+    "dzs-bdp: <urlopen error [Errno 104] Connection reset by peer>",
+    "dzs-gradevinarstvo: <urlopen error [Errno 104] Connection reset by peer>"
   ],
   "items": [
+    {
+      "title": "DHMZ-u Hrvatska velika nagrada sigurnosti",
+      "summary": "Priznanje za doprinos zaštiti ljudi i imovine",
+      "link": "//meteo.hr/objave_najave_natjecaji.php?section=onn¶m=objave&el=priopcenja&daj=pr15102026",
+      "date": "Thu, 15 Oct 2026",
+      "source": "Državni hidrometeorološki zavod",
+      "sourceId": "dhmz",
+      "category": "domovina",
+      "tags": [],
+      "locations": [
+        "Hrvatska"
+      ],
+      "importance": 57,
+      "originalTitle": "DHMZ-u Hrvatska velika nagrada sigurnosti",
+      "originalSummary": "Priznanje za doprinos zaštiti ljudi i imovine",
+      "editorialStatus": "rss",
+      "id": "55cda822be37"
+    },
     {
       "title": "EUMETSAT predvodi sljedeću generaciju europskih sustava za praćenje vremena i klime",
       "summary": "40. obljetnica",
@@ -111,6 +132,24 @@
       "originalSummary": "40. obljetnica",
       "editorialStatus": "rss",
       "id": "9faa0f844548"
+    },
+    {
+      "title": "Projekti u tijeku - Hrvatska zaklada za znanost",
+      "summary": "Utjecaj klimatskih promjena na fenologiju masline na Jadranu",
+      "link": "//meteo.hr/istrazivanje.php?section=projekti¶m=projekti_u_tijeku&el=OleARIC",
+      "date": "Fri, 23 Oct 2026",
+      "source": "Državni hidrometeorološki zavod",
+      "sourceId": "dhmz",
+      "category": "domovina",
+      "tags": [],
+      "locations": [
+        "Hrvatska"
+      ],
+      "importance": 46,
+      "originalTitle": "Projekti u tijeku - Hrvatska zaklada za znanost",
+      "originalSummary": "Utjecaj klimatskih promjena na fenologiju masline na Jadranu",
+      "editorialStatus": "rss",
+      "id": "cdd8903364f0"
     },
     {
       "title": "Utjecaj klimatskih promjena na kratkotrajne oborine i turizam na otocima u Hrvatskoj",
@@ -164,9 +203,9 @@
     },
     {
       "title": "Proračun",
-      "summary": "Godišnji financijski izvještaj o izvršenju financijskog plana i financijski izvještaj za 2025. godinu",
+      "summary": "Posebni dio financijskog plana za 2026. - 2028., rebalans studeni 2026.",
       "link": "//meteo.hr/o_nama.php?section=naslovnica¶m=proracun",
-      "date": "Tue, 5 May 2026",
+      "date": "Wed, 4 Nov 2026",
       "source": "Državni hidrometeorološki zavod",
       "sourceId": "dhmz",
       "category": "domovina",
@@ -177,6 +216,38 @@
       "originalSummary": "Godišnji financijski izvještaj o izvršenju financijskog plana i financijski izvještaj za 2025. godinu",
       "editorialStatus": "rss",
       "id": "be573f3c16e3"
+    },
+    {
+      "title": "Godišnje izvješće o provedbi Provedbenog programa DHMZ-a za 2025. godinu",
+      "summary": "Strateško planiranje",
+      "link": "//klima.hr/razno/o_nama/godisnje_izvjesce_provedbe_Provedbenog_programa_2025.pdf",
+      "date": "Wed, 23 Sep 2026",
+      "source": "Državni hidrometeorološki zavod",
+      "sourceId": "dhmz",
+      "category": "domovina",
+      "tags": [],
+      "locations": [],
+      "importance": 40,
+      "originalTitle": "Godišnje izvješće o provedbi Provedbenog programa DHMZ-a za 2025. godinu",
+      "originalSummary": "Strateško planiranje",
+      "editorialStatus": "rss",
+      "id": "c8a26a75dab0"
+    },
+    {
+      "title": "Meteorološki i hidrološki bilten 8/2026.",
+      "summary": "Mjesečna publikacija DHMZ-a",
+      "link": "//meteo.hr/proizvodi.php?section=publikacije¶m=publikacije_publikacije_dhmz&el=bilteni",
+      "date": "Wed, 14 Oct 2026",
+      "source": "Državni hidrometeorološki zavod",
+      "sourceId": "dhmz",
+      "category": "domovina",
+      "tags": [],
+      "locations": [],
+      "importance": 40,
+      "originalTitle": "Meteorološki i hidrološki bilten 7/2026.",
+      "originalSummary": "Mjesečna publikacija DHMZ-a",
+      "editorialStatus": "rss",
+      "id": "91eb64c7e57c"
     },
     {
       "title": "Stiže vrućina",
@@ -278,7 +349,7 @@
       "title": "Obavijest o dostupnosti podataka s Centralne integracijske platforme",
       "summary": "Meteorološki podaci DHMZ-a na CIP-u",
       "link": "//meteo.hr/objave_najave_natjecaji.php?section=onn¶m=objave&el=priopcenja&daj=pr21092026",
-      "date": "Mon, 21 sep 2026",
+      "date": "Mon, 21 Sep 2026",
       "source": "Državni hidrometeorološki zavod",
       "sourceId": "dhmz",
       "category": "domovina",
@@ -289,22 +360,6 @@
       "originalSummary": "Meteorološki podaci DHMZ-a na CIP-u",
       "editorialStatus": "rss",
       "id": "cf49160f29d8"
-    },
-    {
-      "title": "Meteorološki i hidrološki bilten 7/2026.",
-      "summary": "Mjesečna publikacija DHMZ-a",
-      "link": "//meteo.hr/proizvodi.php?section=publikacije¶m=publikacije_publikacije_dhmz&el=bilteni",
-      "date": "Mon, 21 sep 2026",
-      "source": "Državni hidrometeorološki zavod",
-      "sourceId": "dhmz",
-      "category": "domovina",
-      "tags": [],
-      "locations": [],
-      "importance": 40,
-      "originalTitle": "Meteorološki i hidrološki bilten 7/2026.",
-      "originalSummary": "Mjesečna publikacija DHMZ-a",
-      "editorialStatus": "rss",
-      "id": "91eb64c7e57c"
     },
     {
       "title": "Toplinski valovi 2026.: novi rekordi trajanja na šest postaja",
@@ -385,6 +440,22 @@
       "originalSummary": "Posebno priopćenje prognostičara DHMZ-a",
       "editorialStatus": "rss",
       "id": "ef6552c6a99e"
+    },
+    {
+      "title": "Analiza ljeta 2026. po tipovima vremena",
+      "summary": "Praćenje klime",
+      "link": "//klima.hr/razno/publikacije/ljeto2026_tipovi.pdf",
+      "date": "Fri, 2 Oct 2026",
+      "source": "Državni hidrometeorološki zavod",
+      "sourceId": "dhmz",
+      "category": "domovina",
+      "tags": [],
+      "locations": [],
+      "importance": 40,
+      "originalTitle": "Analiza ljeta 2026. po tipovima vremena",
+      "originalSummary": "Praćenje klime",
+      "editorialStatus": "rss",
+      "id": "e51c421ed409"
     },
     {
       "title": "Održan ICCED 2026",
